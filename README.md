@@ -24,5 +24,5 @@ This is a repository of code and source data to generate *de novo* mutation prob
 	"Ware et al. Current Protocols in Human Genetics 2015"
 [denovolyzer]: http://denovolyzeR.org
   "denovolyzeR.org"
-[exacFtp]: http://denovolyzeR.org
+[exacFtp]: ftp://ftp.broadinstitute.org/pub/ExAC_release/current/manuscript_data/all_possible_variants
   "exac ftp"

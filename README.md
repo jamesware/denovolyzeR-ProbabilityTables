@@ -8,7 +8,7 @@ This is a repository of code and source data to generate *de novo* mutation prob
 - at each genomic position we extract the trinucleotide context (which defines mutability)  
 - VCF is annotated with Ensemble VEP to generate consequences of each SNP  
 - Join that to a table of trinucleotide mutation probabilities  
-  An annotated synthetic vcf generated in this way is hosted [on the exac ftp][exacFtp]  
+  An annotated synthetic vcf generated in this way is hosted at [ftp://ftp.broadinstitute.org/pub/ExAC_release/current/manuscript_data/all_possible_variants][exacFtp]  
 
 - Sum probabilities while grouping by gene & variant consequence  
   = "uncorrected" de novo mutation expectation  
@@ -24,5 +24,5 @@ This is a repository of code and source data to generate *de novo* mutation prob
 	"Ware et al. Current Protocols in Human Genetics 2015"
 [denovolyzer]: http://denovolyzeR.org
   "denovolyzeR.org"
-[exacFtp]: ftp://ftp.broadinstitute.org/pub/ExAC_release/current/manuscript_data/all_possible_variants
+[exacFtp]: http://tinyurl.com/exacSyntheticVcf
   "exac ftp"
